@@ -85,6 +85,11 @@ int main(){
 	
 	update(map,map_control,zombie,chess,player,boss);
 	
+	free(boss);
+	free(zombie);
+	free(chess);
+	free(boss);
+	
 	return 0;
 }
 
